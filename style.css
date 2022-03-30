@@ -1,0 +1,173 @@
+body {
+    background-color: #141414;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.arriba {
+    background-color: #141414;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header {
+    padding: 0 54px;
+}
+
+.logo {
+    width: 95px;
+    height: 31px;
+    top: 20px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.menu {
+    width: 40%;
+    padding-right: 200px;
+
+}
+.headerlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+.headerlist-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+}
+
+.headerlist-item a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0px;
+    cursor: default;
+}
+
+
+.menusecundario {
+    width: 30%;
+    padding-left: 200px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.menusecundario a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+
+.userprincipal {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.headerlistsecondar{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .final{
+    max-width: 1050px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.final .icons{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    align-items: flex-start;
+
+}
+
+.final .icons .footer-list li a{
+    margin-right: 25px;
+    color: #fff;
+}
+
+footer .final p a {
+    color:inherit;
+    text-decoration: none;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.f-list-item {
+    width: 250px;
+    min-width: 200px;
+    padding-left: 0px;
+    margin: 0px 0px 16px;
+}
+
+.f-list-item a{
+    color: grey;
+    font-size: 13px;
+    margin:0px 0px 16px;
+    text-decoration: none;
+}
+.f-list-item a:hover{
+    text-decoration: underline;
+}
+
+li{
+    text-align: -webkit-match-parent;
+}
+footer input[type="button"] {
+    padding: 6.5px;
+    background-color: transparent;
+    border: 1px solid grey;
+    color:#737373;
+    margin: 0px 0px 20px;
+}
+
+footer input[type="button"]:hover{
+    color: white;
+}
+
+footer .final p{
+    color: grey;
+    font-size: 11px;
+    text-decoration: none;
+}
